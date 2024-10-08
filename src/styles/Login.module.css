@@ -1,0 +1,24 @@
+.title{
+    font-size: 4rem;
+    margin-bottom: 2%;
+}
+.login_container{
+    margin: 5%;
+    height: 100vh;
+}
+
+
+.button{
+    background-color: white;
+    border-radius: 20px;
+    color: #00B913;
+    font-size: 1.2rem;
+    padding: 1% 2%;
+    border: 2px solid #00B913
+}
+
+.button:hover{
+    transition-duration: 500ms;
+    background-color: #40c74e;
+    color:white;
+}

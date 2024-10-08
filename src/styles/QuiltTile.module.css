@@ -1,0 +1,35 @@
+.quiltImage{
+  height:100px;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.quiltImage:hover {
+  cursor: pointer;
+}
+
+.spotifyIcon {
+  height: 21px;
+  width: 21px;
+}
+
+.container {
+  width: fit-content;
+  display:flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .quiltImage{
+    height: 75px;
+    width: 75px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .quiltImage{
+    height: 50px;
+    width: 50px;
+  }
+}
